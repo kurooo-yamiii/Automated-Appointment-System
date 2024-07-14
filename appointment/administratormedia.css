@@ -1,0 +1,963 @@
+@media only screen and (max-width: 1024px) {
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow-x: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+          
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: left;
+      height: 8%;
+      padding: 8px 18px;
+    }
+  
+    .u-name {
+      font-size: 12px;
+    }
+          
+    .body {
+            display: flex;
+            flex-direction: column-reverse;
+            transition: 500ms width;
+            height: 92%;
+    }
+        .dashboardstats {
+                width: 20%;
+                
+                }
+
+   /* Side Bar Format for the list of button */
+
+     .side-bar {
+              display: flex;
+              flex-direction: row;
+              width: 100%;
+              background: #041b5a;
+              justify-content: space-between;
+              height: 8%;
+              max-height: 8%;
+              order: -1;
+              
+     }
+
+      .side-bar ul {
+               display: flex;
+               flex-direction: row;
+               margin-top: 0px;
+               width: 84%;
+     }
+
+    .side-bar li {
+               display: flex;
+               flex-direction: row;
+             
+     }
+
+      .side-bar p {
+              display: none;
+     }
+            
+      .user-p h4 {
+         display: none;
+     }
+     
+  /* Side Bar use format including picture and Name */
+  
+  .user-p img {
+      width: 30px;
+        height: 30px;
+      border-radius: 50%;
+  }
+  .side-bar span {
+      margin-left: -5px;
+      display: inline-block;
+      font-size: 23px;
+  }
+  .user-p {
+      text-align: center;
+      padding-left: 10px;
+      padding-top: 10px;
+  }
+          
+  /* Form for the body (Changing Forms) */
+   #dashboard {
+      width: 93%;
+      height: 100%;     
+      padding: 20px;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      overflow-y: auto;
+    }
+          
+          #dtr {
+      width: 93%;
+      height: 100%;     
+      padding: 20px;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      overflow-y: auto;
+    }
+        
+            #statboard {
+      width: 93%;
+      height: 100%;     
+      padding: 20px;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      overflow-y: auto;
+    }
+          
+     #addDtr {
+      width: 93%;
+      height: 100%;     
+      padding: 20px;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      overflow-y: auto;
+    }
+          
+     #showEval{
+      width: 93%;
+      height: 100%;     
+      padding: 20px;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      overflow-y: auto;
+    }
+          
+     #displayEval {
+      width: 93%;
+      height: 100%;     
+      padding: 20px;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      overflow-y: auto;
+    }
+          
+          
+     #announcement {
+      width: 93%;
+      height: 100%;     
+      padding: 20px;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      overflow-y: auto;
+    }
+          
+          #profile{
+      width: 93%;
+      height: 100%;     
+      padding: 20px;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      overflow-y: auto;
+    }
+     
+          
+           #profileupdate {
+      width: 93%;
+      height: 100%;     
+      padding: 20px;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      overflow-y: auto;
+    }
+           #statisticForm {
+      width: 93%;
+      height: 100%;     
+      padding: 20px;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      overflow-y: auto;
+    }
+            #todolist {
+      width: 93%;
+      height: 100%;     
+      padding: 20px;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      overflow-y: auto;
+    }
+        
+          #statEval {
+      width: 93%;
+      height: 100%;     
+      padding: 20px;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      overflow-y: auto;
+    }
+        
+         #profilestud {
+      width: 93%;
+      height: 100%;     
+      padding: 20px;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      overflow-y: auto;
+    }
+        
+      #studentList {
+      width: 93%;
+      height: 100%;     
+      padding: 20px;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      overflow-y: auto;
+    }
+        
+        
+            #teachList {
+      width: 93%;
+      height: 100%;     
+      padding: 20px;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      overflow-y: auto;
+    }
+        
+        #professoradd {
+      width: 93%;
+      height: 100%;     
+      padding: 20px;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      overflow-y: auto;
+    }
+        
+           #pstDeployment{
+      width: 93%;
+      height: 100%;     
+      padding: 20px;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      overflow-y: auto;
+    }
+        
+              #teachDeployment{
+      width: 93%;
+      height: 100%;     
+      padding: 20px;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      overflow-y: auto;
+    }
+          
+   #sectionsss {
+      width: 100%;
+      height: 92%;
+         
+  }
+          
+  /* Dashboard and Divider */     
+   .divider {
+      margin-top: 8px;
+      margin-bottom: 8px;
+      width: 100%;
+      height: 1px;
+      background-color: #000000;
+  }
+          
+  
+  .dashboard {
+      flex: 1;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 5px;
+      background-color: #fffdfd;
+      margin-top: -15px;
+  }
+  
+  .logos {
+      display: flex;
+      align-items: center;
+  }
+  
+  .logo {
+      margin-left: 10px;	
+  }
+  
+  h1 {
+      font-size: 16px;
+      padding: 11px;
+          text-align: center;
+  }
+  
+  .space {
+    height: 20px;
+    width: 100%;
+  }
+          
+  img {
+      width: 35px;
+  }
+  
+          
+  /* Costumize Canvas and giving tittle to canvas */
+        
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: 300px; 
+    height: auto; 
+    place-items: center;
+           grid-column-gap: 1px;
+  grid-row-gap: 1px; 
+          margin: 0;
+          justify-content: center;
+  }
+  .bar div {
+          
+          width: 13px;
+          }
+        
+        .category-label {
+    font-size: 8px;
+ 
+}
+        .row-total h2 {
+        
+        	font-size: 13px;
+        
+        }
+        .piehcart-justify{
+                 display: flex;
+                 justify-content: center;
+               
+                }
+        #myPieChart {
+                
+                display: flex !important;
+                width: 200px !important;
+                height: 170px !important;
+                justify-content: center !important;
+                align-items: center !important;
+                }
+        
+        .total-row-space {
+    margin-right: 7px;
+    font-size: 13px;
+}
+  .card, .card2, .card3 {
+          width: 98%;
+          height: 200px;
+          }
+        
+   #chart {
+	display: flex;
+    justify-content: center;
+}
+
+#chart2 {
+	display: flex;
+    justify-content: center;
+}
+
+#chart3 {
+	display: flex;
+    justify-content: center;
+}     
+        
+        #chart .bar {
+  background-color: #e74c3c; /* Red */
+                
+}
+         
+
+#chart2 .bar {
+  background-color: #2ecc71; /* Green */
+          
+}
+
+#chart3 .bar {
+  background-color: #f39c12; /* Orange */
+  
+}
+
+#chart .label {
+  background-color: #e74c3c; /* Red */
+  font-size: 9px;
+}
+
+#chart2 .label {
+  background-color: #2ecc71; /* Green */
+  font-size: 9px;
+}
+
+#chart3 .label {
+  background-color: #f39c12; /* Orange */
+  font-size: 9px;
+}
+        .eval-update {
+    display: grid;
+    grid-template-columns: 1fr; 
+    height: auto; 
+    place-items: center;
+  }
+  
+  .canvas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .canvas-container h2 {
+    margin-bottom: 10px; 
+    font-size: 12px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+  }
+  #scoreChart, #varChart {
+      display: block !important;
+      box-sizing: border-box !important;
+      height: 100px !important;
+      width: 290px !important;
+  }
+
+  form td .red-button, form td .blue-button {
+          font-size: 6px;
+          width: 100%;
+          }
+        
+        .search-input {
+    width: 63%;
+    padding: 7px;
+    margin-right: 5px;
+    font-size: 10px;
+}
+        
+        .search-label {
+    font-size: 10px;
+    margin-right: 5px;
+    font-weight: 500;
+}
+        .email-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	text-align: left;
+                width: 100%;
+    font-size: 8px;
+    margin-bottom: 0px;
+}
+
+.extension-email {
+	width: 40%;
+    margin-top: 5px;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: solid;
+    margin-left: 20px;
+    border-color: lightgray;
+    border-radius: 5px;
+}
+        .form-but2 {
+                width: auto;
+                }
+
+.email-container input{
+	width: 100%;
+    font-size: 8px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+        .form-group2 {
+	justify-content: left;
+	text-align: left;
+	align-items: left;
+	margin-top: 8px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+  .canvas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .canvas-container h2 {
+    margin-bottom: 10px; 
+    font-size: 12px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+  }
+  #scoreChart, #varChart {
+      display: block !important;
+      box-sizing: border-box !important;
+      height: 100px !important;
+      width: 290px !important;
+  }
+        
+            #studentadd {
+                 width: 93%;
+                      height: 100%;     
+                      padding: 20px;
+                      margin-top: 2%;
+                      margin-bottom: 2%;
+                      overflow-y: auto;
+                
+                }
+        .form-but {
+    height: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+        .post-group label {
+    width: 15%;
+                  font-size: 10px;
+               
+}
+        
+        #post {
+                font-size: 10px;
+                }
+        
+        #choosepost {
+      font-size: 10px;
+}
+        #plab1 {
+                margin-top: -24%;
+                }
+        #plab2 {
+                margin-top: 1%;
+                }
+        
+        .profile-button-box {
+        width: 43%;
+    display: flex;
+    justify-content: right;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+        button {
+    display: inline-block;
+    padding: 8px 25px;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid navy;
+    color: #fff;
+    background-color: navy;
+    border-radius: 5px;
+    margin-right: 3px;
+}
+        
+        #centerbtn {
+        display: inline-block;
+    padding: 10px 15px;
+    font-size: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+    border-color: #2e6da4;
+    color: #fff;
+    background-color: #337ab7;
+    border-radius: 5px;
+    margin-left: 27px;
+    margin-top: 8px;
+        }
+    /* Costumize Table of Approved DTR */
+          
+  .eval-studd {
+      display: block;
+    padding: 0px;
+  }
+  
+  .eval-studd h2 {
+      margin-top: -10px;
+      margin-bottom: 20px; 
+      font-size: 18px;
+  }
+  
+  .eval-studd h3 {
+      margin-top: 12px;
+      margin-bottom: 0px; 
+      font-size: 12px;
+          text-align: center;
+  }
+  
+  table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+  
+    th, td {
+      border: 1px solid #ccc;
+      padding: 6px;
+      text-align: center;
+       font-size: 8px;
+           
+    }
+  
+    th {
+      background-color: gold;
+      color: navy;
+      font-size: 8px;
+    }
+  
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+            font-size: 8px;
+    }
+    
+    .btn-primary{
+         font-size: 10px;
+      padding: 7px 11px;
+            margin-right: 2px;
+          
+      
+    }
+    #totalacc {
+           font-size: 11.5px; 
+            }
+          
+          #datee {
+  
+      padding: 2px;
+      font-size: 8px;
+  
+  }
+        
+        #program, #section, #school, #grade {
+    width: 100%;
+    font-size: 8px;
+    margin-bottom: 0px;
+}
+        
+        .search-button {
+    background-color: navy;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+}
+  /* Time in and Time out Display */  
+  
+  .form-group {
+      width: 100%;
+  }
+  
+  
+  input {
+      width: 80%;
+  }
+  
+  label {
+      color: black; 
+      width: 80%;  
+  }
+        .todo-item {
+                width: 100%;
+                }
+          
+  /* Evaluation Form */ 
+  .removee-to-do {
+      display: block;
+      float: right;
+      padding-top: 5px;
+      width: 50px;
+      height: 25px;
+      text-decoration: none;
+      cursor: pointer;
+     
+     
+      font-size: 10px;
+      text-align: center;
+      transition: background 1s;
+      box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.5);
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      margin-right: -12px;
+      padding-left: 10px;
+  }
+  .todo-item h2 {
+             width: 75%;
+          font-size: 12px;
+          
+          }
+          
+  .todo-item span.ave {
+      font-size: 12px;
+              letter-spacing: 0px;
+  }
+          
+  .todo-item small {
+      display: block;
+      width: 100%;
+      padding: 5px 0px;
+      color: #888;
+      padding-left: 9px;
+      font-size: 9px;
+      font-family: sans-serif;
+  }
+  
+  /* Evaluation View Table Styles */
+  .goldview h1 {
+          font-size: 14px;
+          margin-bottom: -2%;
+          }
+          
+          .goldview p {
+          font-size: 11px;
+                  margin-bottom: 2%;
+          }
+          
+          .eval-title {
+                    font-size: 12px;  
+                  
+                  }
+          
+          .custom-table-column-form2 {
+      font-size: 11px;
+  }
+          .remarks-label{
+                   font-size: 11px;
+                  }
+          /* Announcement View Table Styles */
+  
+  
+  .date-pin {
+    width: 55px;
+    height: 20px;
+    font-size: 7px;
+          margin-top: -3%;
+   
+  }
+          
+      #postfont {
+      font-size: 8px;
+              text-align: center;
+      
+           
+  }
+           #anouncebox {
+      font-size: 8px;
+   width: 100%;
+                   margin-top: 0px;
+                   padding: 2px 1px;
+  }
+          
+       
+          
+          #announcesmall {
+                   font-size: 7px;
+                  margin-top: -7%;
+                  
+                  }
+          .todo-item img {
+  
+         width: 40%;     
+    height: auto;
+    overflow: hidden;
+  }
+  form .empty {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+          margin-top: -10%;
+  }
+          
+  .pic-description {
+      margin-right: 0%;
+           justify-content: center;
+    align-items: center;
+  }
+  
+          
+     .announce-para {
+      font-size: 16px;
+             font-weight: 750;
+   
+  }.announce-para span {
+    
+      font-size: 16px;
+  
+  }
+          
+   /* Profile CSS */
+  
+  .profile-image {
+    max-width: 220px;
+    overflow: hidden;
+   height: auto;
+          width: 40%;
+  }   
+          
+          .prof-title {
+  
+    font-size: 12px;
+      
+  }
+  
+  #adjustspace {
+          
+          height: 2px;
+          }
+          
+          .inner-container {
+      width: 100px;
+      height: 80px;
+      
+  }
+          
+          .centered-container {
+      height: 100px;
+  }
+          
+          #img {
+                  font-size: 10px;
+                  
+                  }
+          
+          .choose {
+                      margin-left: 32%;
+                  }
+          
+          .form-group input {
+                  width: 100%;
+                  font-size: 8px;
+                  margin-bottom: 0px;
+                  }
+          
+             .form-group label {
+                  width: 100%;
+                  font-size: 8px;
+                     margin-top: -10px;
+                  
+                  }
+          
+          /* To - Do - List */
+  .titletodo {
+    font-weight: 500;
+      font-size: 10px;
+          width: 60%;
+         
+  }
+  
+  .datetodo {
+    font-size: 15px;
+      letter-spacing: 1px;
+              font-size: 10px;
+           display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+          align-items: center;
+  }
+          
+          .listtodobut {
+    display: inline-block;
+    padding: 3px 3px;
+    font-size: 8px;
+                  width: 18%;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid navy;
+    color: #fff;
+    background-color: navy;
+    border-radius: 5px;
+    margin-right: 3px;
+    height: 30px;
+    margin-top: 1px;
+  }
+        
+        .listtodobut2 {
+   font-size: 10px;
+                margin-right: -2% !important;
+                padding: 5px 12px !important;
+                
+}
+        #missing {
+                margin-right: 0px !important;
+                }
+        
+        .btn-stats {
+    display: inline-block;
+   padding: 9px 0px;
+                
+    font-size: 6.5px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 12%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 2px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(60px);
+}
+        
+        .statlistbtn {
+    height: 40px;
+    padding: 6px;
+   
+}
+        #s1, #s2, #s3, #s4, #s5, #s6, #s7, #s8, #s9 {
+                    width: 55px;
+    height: 25px;
+                font-size: 10px;
+                }
+        
+        
+#showstats, #StatResult {
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; 
+
+}
+       .monitor {
+               height: 260px;
+               }
+        #gridpic {
+ 
+  width: 50px;
+  height: 50px;
+
+}
+        
+        .monitor h2 {
+
+  font-size: 12px;
+  
+}
+
+.monitor span.program {
+   font-size: 12px;
+}
+        
+        .monitor small {
+ font-size: 11px;
+}
+
+                
+}
+
+
